@@ -23,7 +23,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body{
+ body{
     background-color: var(--roxo);
     text-align: center;
     
@@ -37,7 +37,6 @@ main{
     text-align: center;
     
     margin: 0px auto;
-    background-color: rgba(0, 0, 0, 0.295);
    
 }
 section#login{
@@ -121,3 +120,10 @@ P#esqueciasenha input{
 
 }
 
+
+
+@media  screen and (min-width:500px) {
+    body{
+        background-image: linear-gradient(top, #5f2c82, white,);
+    }
+}

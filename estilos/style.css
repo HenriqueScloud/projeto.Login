@@ -123,7 +123,7 @@ P#esqueciasenha input{
 
 
 @media  screen and (min-width:500px) {
-    body{
-        background-image: linear-gradient(top, #5f2c82, white,);
-    }
+        body{
+           background-color: var(--verde);
+        }
 }

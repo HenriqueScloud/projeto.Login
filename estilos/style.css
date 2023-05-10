@@ -81,12 +81,22 @@ p.user{
     background-color: var(--roxo);
     color: white;
     width: 80%;
+    
     margin: auto;
-    padding: 0px;
+    padding: 10px;
     margin-top: 5px;
+    border-radius: 3.5px;
 
 }
 input{
     width: 90%;
     height: 100%;
+}
+
+P#entrar input{
+    background-color: var(--verde);
+    border:none;
+    color: white;
+    border-radius: 2px;
+
 }

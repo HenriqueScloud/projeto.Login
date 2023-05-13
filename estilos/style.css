@@ -125,6 +125,6 @@ P#esqueciasenha input{
 @media  screen and (min-width:500px) {
         body{
            background-color: var(--roxo);
-           color:
+           color:var(--roxo)
         }
 }

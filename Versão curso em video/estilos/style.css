@@ -26,7 +26,7 @@
 }
 
 body{
-    background-color: var(--roxo);
+    background-image: linear-gradient(180deg , var(--roxo), black);
     height: 100vh;
     width: 100vw;
     
@@ -69,7 +69,7 @@ div#imagem{
 
 
 }
-section#login > div#formulario{
+ div#formulario{
    
     
     padding: 10px;

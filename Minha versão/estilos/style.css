@@ -59,18 +59,17 @@ div#imagem{
     background-position: center center;
    
     background-size: cover;
-   height: 100%;
+  
 
 
     display: block;
 
     width: 100%;
-    
+    min-height: 200px;
 }
 div#formulario{
     display: block;
-    background-color: #49a09d;
-    ;
+    
 }
 
 

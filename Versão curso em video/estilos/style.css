@@ -29,7 +29,7 @@ body{
     background-color: var(--roxo);
     height: 100vh;
     width: 100vw;
-    ;
+    
 
 }
 
@@ -45,7 +45,7 @@ section#login{
    
 
 
-    width: 250px;
+    min-width: 250px;
     height: 500px;
 
 
@@ -56,22 +56,40 @@ section#login{
     overflow: hidden;/*TUDO QUE TIVER FORA DA BORDA FICARÁ ESCONDIDO   */
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+
+    transition: width .3s, heigth 1s ;
 }
 
 div#imagem{
     background:var(--roxo) url(../imagens/pexels-bruno-thethe-2747596.jpg) ;
-   min-height: 200px;
+    min-height: 200px;
     background-size: cover;
-    position: center center;
+    position: bottom center;
     display: block;
 
 
 }
-div#formulario{
+section#login > div#formulario{
+   
+    
     padding: 10px;
     display: block;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

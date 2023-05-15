@@ -63,10 +63,14 @@ div#imagem{
    min-height: 200px;
     background-size: cover;
     position: center center;
+    display: block;
+
 
 }
 div#formulario{
     padding: 10px;
+    display: block;
+
 }
 
 

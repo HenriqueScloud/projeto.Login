@@ -45,7 +45,7 @@ section#login{
     margin: auto;
     position: absolute;
     width: 80vw;           /* CAIXA DE LOGIN*/
-    max-width: 500px;
+   
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -127,7 +127,22 @@ P#esqueciasenha input{
 /*media query para T A B L E T */
 
 
-@media  screen and (min-width:768px) {
+@media  screen and (min-width:768px)  and (max-width:992px){
+   section#login{
+    width: 80vw;
+
+   }
+
+   div#imagem{
+    float: left;
+    width: 30%;
+    height: 100%;
+   }
+   div#formulario{
+    float: right;
+    width: 70%;
+   }
+    
 
 }
        

@@ -41,10 +41,10 @@ main{
 }
 section#login{
     display: block;
-    background-color: white;
+    background-color: white;      
     margin: auto;
     position: absolute;
-    width: 80vw;
+    width: 80vw;           /* CAIXA DE LOGIN*/
     max-width: 500px;
     top: 50%;
     left: 50%;

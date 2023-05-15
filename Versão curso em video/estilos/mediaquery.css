@@ -23,14 +23,14 @@
     }
     section#login > div#imagem{
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
         
     }
      div#formulario{
         background-color: rgba(255, 255, 255, 0.336);
         float: right;
-        width: 70%;
+        width: 60%;
         height: 100%;
     }
 }
@@ -48,19 +48,21 @@
         
         width: 992px;
         height: 500px;
-        
+        transition: width 2s;
         
     }
     div#imagem{
-        float: left;
-        width: 40%;
+        transition: 2s;
+        float: right;
+        width: 55%;
         height:100%;
 
     }
     div#formulario{
+        transition: 2s;
         
-        float: right;
-        width: 60%;
+        float: left;
+        width: 45%;
         height: 100%;
         
 

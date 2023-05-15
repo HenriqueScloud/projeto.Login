@@ -50,28 +50,30 @@ section#login{
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
+    overflow: hidden;
 
     box-shadow: 0px 0px 30px black;
 }
 div#imagem{
     background-image: url(../imagens/pexels-bruno-thethe-2747596.jpg);
     background-position: center center;
-    background-attachment: fixed;
+   
     background-size: cover;
-    border-radius: 10px 10px 0px 0px;
+   height: 100%;
+
 
     display: block;
 
     width: 100%;
-    height: 30vh;
-}
-
-div#formulario>h1{
-    display: block;
     
-
-    padding: 10px;
 }
+div#formulario{
+    display: block;
+    background-color: #49a09d;
+    ;
+}
+
+
 div>p{
     
     padding:  15px;
@@ -124,25 +126,8 @@ P#esqueciasenha input{
 }
 
 
-/*media query para T A B L E T */
 
 
-@media  screen and (min-width:768px)  and (max-width:992px){
-   section#login{
-    width: 80vw;
 
-   }
 
-   div#imagem{
-    float: left;
-    width: 30%;
-    height: 100%;
-   }
-   div#formulario{
-    float: right;
-    width: 70%;
-   }
-    
-
-}
        

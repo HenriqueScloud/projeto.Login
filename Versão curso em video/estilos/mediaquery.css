@@ -31,8 +31,11 @@
 
 
 @media screen and (min-width: 992px ) {
-    secton#login{
-        width: 80vw;
+    section#login{
+        
+        width: 992px;
+        height: 500px;
+        
         
     }
     div#imagem{
@@ -42,9 +45,11 @@
 
     }
     div#formulario{
+        background-color: rgba(255, 255, 255, 0.336);
         float: right;
         width: 60%;
         height: 100%;
         
 
+    }
 }

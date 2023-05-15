@@ -32,6 +32,8 @@
         float: right;
         width: 60%;
         height: 100%;
+        
+        font-size: 18px;
     }
 }
 
@@ -52,19 +54,23 @@
         
     }
     div#imagem{
-        transition: 2s;
+        transition: .3s;
         float: right;
         width: 55%;
         height:100%;
 
     }
     div#formulario{
-        transition: 2s;
+        transition: .3s;
         
         float: left;
         width: 45%;
         height: 100%;
+
+        font-size: 20px;
         
 
     }
+
+
 }

@@ -89,9 +89,35 @@ div.campo{
     display: block;
     width: 100%;
     height: 40px;
-    margin: 5px 0px ;
-    border-radius: 5px;
+    margin: 15px 0px ;
+    border-radius: 8px;
     padding: 2px;
+   
+   
+}
+div.campo > .material-icons {
+    
+    color: rgb(2, 2, 2);
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+i{
+    transform: translateY(7px);
+}
+div.campo input{
+  
+    font-size: 1em;
+    width: calc(100% - 44px) ;
+    height: 100%;
+    border: 0px ;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
+
+
 }
 
 
